@@ -1,0 +1,9 @@
+.myProduct {
+  display: flex;              
+  align-items: center;        
+  justify-content: space-between; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,46 @@
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  nav a:last-child {
+    margin-right: 0;
+  }
+
+  nav a[href="/add"] {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+  }
+  
+  nav a[href="/add"]:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+  
+  nav a[href="/list"] {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  nav a[href="/list"]:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
